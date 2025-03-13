@@ -25,7 +25,7 @@ export default function Header(){
         aria-expanded="false"
         aria-label="Toggle navigation"
       >
-        <span className="navbar-toggler-icon" />
+        <span className="navbar-toggler-icon" ></span>
       </button>
       <div className="collapse navbar-collapse" id="navbarSupportedContent">
         <ul className="navbar-nav me-auto mb-2 mb-lg-0">
@@ -69,12 +69,13 @@ export default function Header(){
             aria-label="Search"
           />
           <button className="btn btn-outline-success cs-btn" type="submit">
-            <i className="fa-solid fa-magnifying-glass" />
+            <i className="fa-solid fa-magnifying-glass" ></i>
           </button>
         </form>
         <ul className="navbar-nav me-auto mb-2 mb-lg-0 mlt">
           <li className="nav-item login">
-            <i className="fa-regular fa-user" />
+            <i className="fa-regular fa-user" ></i>
+
             <a className="nav-link" href="#">
               Login
             </a>
@@ -85,7 +86,7 @@ export default function Header(){
             </a>
           </li>
           <li className="nav-item nvss">
-            <i className="fa-solid fa-globe" />
+            <i className="fa-solid fa-globe" ></i>
             <select
               className="form-select nav-link"
               aria-label="Default select example"
@@ -96,7 +97,7 @@ export default function Header(){
           </li>
           <li className="nav-item">
             <a className="nav-link n4" href="#">
-              <i className="fa fa-shopping-cart js" aria-hidden="true" />
+              <i className="fa fa-shopping-cart js" ></i>
             </a>
           </li>
         </ul>
