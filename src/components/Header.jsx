@@ -96,7 +96,7 @@ export default function Header(){
           </li>
           <li className="nav-item">
             <a className="nav-link n4" href="#">
-            <FontAwesomeIcon icon={faCartShopping} style={{color: "#f6f7f9",}} />
+            <FontAwesomeIcon icon={faCartShopping} style={{color: "#f6f7f9",fontSize:'20px'}} />
             </a>
           </li>
         </ul>
