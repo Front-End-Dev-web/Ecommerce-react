@@ -6,7 +6,9 @@ body{
 .nav-link:hover{
 color: white;
 }
-
+ul li a.nav-link{
+  color: white !important;
+}
 *{
     margin: 0;
     padding: 0;
