@@ -226,28 +226,6 @@ font-weight: 400;
 
 
 
-.card-fs-content-header-left-timer{
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
-    /* gap: 10px; */
-    width: 300px;
-    align-items: center;
-    
-}
-
-.card-fs-content-header-left-timer #hours,
-.card-fs-content-header-left-timer #minutes,
-.card-fs-content-header-left-timer #seconds{
-    /* width: 50px; */
-    height: 50px;
-    width: 50px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    color: white;
-    border-radius: 10px;
-}
 
 
 .card-fs-content-button {
@@ -273,6 +251,11 @@ font-weight: 400;
     margin-top: 13px;
     text-decoration-line: none;
 }
+.card-fs-content-button:hover{
+  background:  #f85606;
+    border-radius: 2px;
+    color: white !important;
+}
 
 .card-fs-content-header-left{
     display: flex;
@@ -291,15 +274,15 @@ font-weight: 400;
     
 padding: 10px;    
 border: none;
-    border-radius: 0px;
+    border-radius: 5px;
+    box-shadow: 0 0 2px 2px rgba(128, 128, 128, 0.185);
 }
-.flash-body .card:hover{
-    box-shadow: 0px 0px 10px 2px rgba(128, 128, 128, 0.466);
-}
-.flash-body .card img{
-    height: 29vh;
-    width: 100%;
 
+.flash-body .card img{
+height: 150px ;
+    width: 100%;
+object-fit: contain;
+border-radius: 5px 5px 0 0 !important;
 }
 .flash-body .card .card-body .card-text:nth-child(1) {
     font-size: 13px;
@@ -342,20 +325,27 @@ width: 92%;
     align-items: center;
 }
 .foryou-button button{
-    height: 50px;
-    width: 25%;
+    height: 50px !important;
+    width: 200px !important;
     background: transparent;
     color: #f85606;
     border: 1px solid  #f85606;
-font-size:18px;
+font-size:15px;
+border-radius: 5px;
+}
+.foryou-button button:hover{
+  background-color: #f85606;
+  color: #fffafa;
 }
 .foryou-cards .card{
     height: 23.5em;
-    border-radius: 0px;
-    border: none;
+border:  none !important;
+    border-radius: 5px;
+    box-shadow: 0 0 2px 2px rgba(128, 128, 128, 0.158);
 } 
 .foryou-cards .card img{
-    height: 30vh;
+    height: 200px;
+    border-radius: 5px 5px 0 0 !important; 
 }
 
 
@@ -496,14 +486,8 @@ width: 90px;
     border: none;
         border-radius: 0px;
     }
-    .flash-body .card:hover{
-        box-shadow: 0px 0px 10px 2px rgba(128, 128, 128, 0.466);
-    }
-    .flash-body .card img{
-        height: 30vh;
-        width: 100%;
-        object-fit: cover;
-    }
+
+ 
     .flash-body .card .card-body .card-text:nth-child(1) {
         font-size: 14px;
     }
@@ -529,10 +513,6 @@ width: 90px;
     border: none;
         border-radius: 0px;
     }
-    .flash-body .card:hover{
-        box-shadow: 0px 0px 10px 2px rgba(128, 128, 128, 0.466);
-    }      
-
 
     
 
@@ -748,14 +728,14 @@ width: 90px;
         padding: none;
     border: none;
         border-radius: 0px;
-    }
-    .flash-body .card:hover{
-        box-shadow: 0px 0px 10px 2px rgba(128, 128, 128, 0.466);
-    }
+   
+      }
+  
     .flash-body .card img{
-        height: 30vh;
+        height: 150px !important;
         width: 100%;
-        object-fit: cover;
+        object-fit: contain;
+
     }
     .flash-body .card .card-body .card-text:nth-child(1) {
         font-size: 14px;
@@ -782,10 +762,7 @@ width: 90px;
     border: none;
         border-radius: 0px;
     }
-    .flash-body .card:hover{
-        box-shadow: 0px 0px 10px 2px rgba(128, 128, 128, 0.466);
-    }      
-
+  
 
     
 
@@ -1003,9 +980,7 @@ width: 90px;
     border: none;
         border-radius: 0px;
     }
-    .flash-body .card:hover{
-        box-shadow: 0px 0px 10px 2px rgba(128, 128, 128, 0.466);
-    }
+    
     .flash-body .card img{
         height: 30vh;
         width: 100%;
@@ -1036,10 +1011,7 @@ width: 90px;
     border: none;
         border-radius: 0px;
     }
-    .flash-body .card:hover{
-        box-shadow: 0px 0px 10px 2px rgba(128, 128, 128, 0.466);
-    }      
-
+  
 
     
 
@@ -1134,10 +1106,6 @@ footer h5{
 
 
 
-
-.card:hover{
-    box-shadow: 0px 0px 10px 4px rgba(128, 128, 128, 0.288);
-}
 
 
 
@@ -1293,15 +1261,14 @@ width: 90px;
         width: 100%;
         padding: none;
     border: none;
-        border-radius: 0px;
+        border-radius: 5px;
     }
-    .flash-body .card:hover{
-        box-shadow: 0px 0px 10px 2px rgba(128, 128, 128, 0.466);
-    }
+   
     .flash-body .card img{
-        height: 30vh;
+height: 300px;
         width: 100%;
-        object-fit: cover;
+        object-fit: contain;
+      
     }
     .flash-body .card .card-body .card-text:nth-child(1) {
         font-size: 14px;
@@ -1328,9 +1295,7 @@ width: 90px;
     border: none;
         border-radius: 0px;
     }
-    .flash-body .card:hover{
-        box-shadow: 0px 0px 10px 2px rgba(128, 128, 128, 0.466);
-    }      
+
 
 
 
@@ -1358,12 +1323,17 @@ font-size: 14px;
 }
 .foryou-cards .card{
     height: 30em;
-    border-radius: 0px;
-    border: none;
+    border-radius: 5px;
+
 } 
 
 
+.foryou-cards .card img{
+  height:200px;
+  object-fit: contain;
+  border-radius: 5px;
 
+} 
 
 .foryou-cards .card .card-body  del{
     font-size: 13px;
@@ -1602,8 +1572,19 @@ height: auto;
             font-size: 13px;
         }
         button{
-            height: 30px;
+      
+            color: rgb(255 255 255) !important;
+            background-color: rgb(245, 114, 36) !important;
+        
+
         }
+        button:hover{
+      background: transparent;
+          /* background-color: rgb(255 255 255) !important; */
+        color: rgb(245, 114, 36) ;
+          border:2px solid rgb(245, 114, 36);
+      
+      }
         .card{
             height: 22em;
             img{
@@ -1776,6 +1757,8 @@ height: auto;
 #flash{
     .flash{
         .flash-heading{
+
+
 
             text-align: center;
         }

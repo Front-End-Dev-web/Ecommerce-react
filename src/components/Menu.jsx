@@ -1,3 +1,6 @@
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
+import {faTruck,faRotateLeft,faCircleCheck} from '@fortawesome/free-solid-svg-icons'
+
 import '../index.css';
 import '../App.css';
 import "bootstrap/dist/css/bootstrap.min.css";
@@ -155,11 +158,8 @@ export default function Menu(){
                 alignItems: "center"
               }}
             >
-              <img
-                src="fast-delivery (1).png"
-                alt=""
-                style={{ marginRight: 10, height: 25 }}
-              />
+                <FontAwesomeIcon icon={faTruck} style={{color: "#f85606",marginRight: 10, height: 25}} />
+          
               Nationwide Delievery
             </a>
           </li>
@@ -173,13 +173,8 @@ export default function Menu(){
                 alignItems: "center"
               }}
             >
-              <img
-                src="undo.png"
-                alt=""
-                height="25px"
-                style={{ marginRight: 10 }}
-              />{" "}
-              Free &amp; Easy Returns
+
+<FontAwesomeIcon icon={faRotateLeft} style={{color: "#f85606",height:'25px',marginRight:'10px'}} /> Free &amp; Easy Returns
             </a>
           </li>
           <li className="list-group-item border-0">
@@ -208,12 +203,8 @@ export default function Menu(){
                 alignItems: "center"
               }}
             >
-              <img
-                src="verify.png"
-                alt=""
-                height="25px"
-                style={{ marginRight: 10 }}
-              />
+
+              <FontAwesomeIcon icon={faCircleCheck} style={{color: "#f85606", marginRight: 10 ,   height:"25px"}} />
               100% Authentic Products
             </a>
           </li>
@@ -254,8 +245,8 @@ export default function Menu(){
         <h2>Category</h2>
       </div>
       <div className="category-card">
-        <div className="row row-cols-1  row-cols-lg-6 row-cols-md-5 row-cols-sm-2 g-0">
-          <div className="col col-sm-6">
+        <div className="row row-cols-2  row-cols-lg-6 row-cols-md-5 row-cols-sm-2 g-4">
+          <div className="col col-sm-5">
             <div className="card">
               <img
                 src="https://static-01.daraz.pk/p/093b8d7e5b8ad3b83909ee7fa008cf39.jpg"
@@ -265,7 +256,7 @@ export default function Menu(){
               <p className="card-text">Headphones</p>
             </div>
           </div>
-          <div className="col col-sm-6">
+          <div className="col col-sm-5">
             <div className="card ">
               <img
                 src="https://static-01.daraz.pk/p/174bf8802323a8343ab483ec0ad45725.jpg"
@@ -275,7 +266,7 @@ export default function Menu(){
               <p className="card-text">Wireless Earbuds</p>
             </div>
           </div>
-          <div className="col col-sm-6">
+          <div className="col col-sm-5">
             <div className="card">
               <img
                 src="https://static-01.daraz.pk/p/8bd0c04f0af445cad3860868bc15e046.jpg"
@@ -285,7 +276,7 @@ export default function Menu(){
               <p className="card-text">SmartWatches</p>
             </div>
           </div>
-          <div className="col col-sm-6">
+          <div className="col col-sm-5">
             <div className="card">
               <img
                 src="https://static-01.daraz.pk/p/75fb6d2c0f0619c3f837988c56d2ff27.jpg"
@@ -295,7 +286,7 @@ export default function Menu(){
               <p className="card-text">Business</p>
             </div>
           </div>
-          <div className="col col-sm-6">
+          <div className="col col-sm-5">
             <div className="card">
               <img
                 src="https://static-01.daraz.pk/p/b569f2564ca9d109fc65242e5c7efdf5.jpg"
@@ -305,7 +296,7 @@ export default function Menu(){
               <p className="card-text">Door hardware </p>
             </div>
           </div>
-          <div className="col col-sm-6">
+          <div className="col col-sm-5">
             <div className="card">
               <img
                 src="https://static-01.daraz.pk/p/6ec244bef48a83413bf84f4cef5aa882.jpg"
@@ -315,7 +306,7 @@ export default function Menu(){
               <p className="card-text">Travel Size Bottles</p>
             </div>
           </div>
-          <div className="col col-sm-6">
+          <div className="col col-sm-5">
             <div className="card">
               <img
                 src="https://static-01.daraz.pk/p/05b43d7b3dc82cb4da781b4589e565ee.jpg"
@@ -325,7 +316,7 @@ export default function Menu(){
               <p className="card-text">T-Shirts</p>
             </div>
           </div>
-          <div className="col col-sm-6">
+          <div className="col col-sm-5">
             <div className="card">
               <img
                 src="https://static-01.daraz.pk/p/f2885c741b3f37a38bdabb684912bdd3.jpg"
@@ -335,7 +326,7 @@ export default function Menu(){
               <p className="card-text">Wall Decor</p>
             </div>
           </div>
-          <div className="col col-sm-6">
+          <div className="col col-sm-5">
             <div className="card">
               <img
                 src="https://static-01.daraz.pk/p/mdc/8bc4dfda3d6c21a758337e22010d9924.jpg"
@@ -345,7 +336,7 @@ export default function Menu(){
               <p className="card-text">Moisturizers</p>
             </div>
           </div>
-          <div className="col col-sm-6">
+          <div className="col col-sm-5">
             <div className="card">
               <img
                 src="https://static-01.daraz.pk/p/a0a9704d8bf455020ae005ec829b7396.jpg"
@@ -410,7 +401,45 @@ export default function Menu(){
           </div>
         </div>
         <div className="flash-body">
-          <div className="row row-cols-1 row-cols-lg-6 row-cols-md-3 cols-md-3 row-cols-sm-1 g-1 ">
+          <div className="row row-cols-1 row-cols-lg-4 row-cols-md-3 cols-md-3 row-cols-sm-1 g-1 ">
+            <div className="col">
+              <div className="card">
+                <img
+                  src="https://static-01.daraz.pk/p/5fc3f1b7ded271b490539883eb823f7a.jpg"
+                  className="card-img-center"
+                  alt="..."
+                />
+                <div className="card-body">
+                  <p className="card-text">
+                    FRAKIN Table Corner Protector / Bed Corner ...
+                  </p>
+                  <span className="card-text text">Rs.142</span>
+                  <div className="card-inner">
+                    <del>Rs.250</del>
+                    <span>-43%</span>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div className="col">
+              <div className="card">
+                <img
+                  src="https://static-01.daraz.pk/p/5fc3f1b7ded271b490539883eb823f7a.jpg"
+                  className="card-img-center"
+                  alt="..."
+                />
+                <div className="card-body">
+                  <p className="card-text">
+                    FRAKIN Table Corner Protector / Bed Corner ...
+                  </p>
+                  <span className="card-text text">Rs.142</span>
+                  <div className="card-inner">
+                    <del>Rs.250</del>
+                    <span>-43%</span>
+                  </div>
+                </div>
+              </div>
+            </div>
             <div className="col">
               <div className="card">
                 <img
