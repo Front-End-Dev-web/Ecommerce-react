@@ -137,8 +137,12 @@ border-radius:10px;
     }   
 }
 
+
 @media screen and (max-width:540px){
-    .nav1{
+    #slides{
+      height: 30rem !important;
+    }
+  .nav1{
         display: none;
 
     }
@@ -1110,6 +1114,10 @@ footer h5{
 
 
 
+
+
+
+
 @media screen and ( max-width:600px){
 .flash-head .fs-status-text{
     font-size: 17px;
@@ -1443,7 +1451,7 @@ width: 100%;
 
 @media screen and (max-width:400px) {
     #slides{
-        height:250px;
+     
         width: 100%;
         display: flex;
         justify-content: center;
@@ -1636,15 +1644,16 @@ footer h5{
 
 }
 
-@media screen and (max-width:540px) {
+@media screen and (max-width:570px) {
     #slides{
-        height:250px;
+      height: 40rem !important;
         width: 100%;
         display: flex;
         justify-content: center;
         align-items: center;
     }
     .slides{
+      height: auto;
         width: 90%;
         display: flex;
         justify-content: space-between;
@@ -1856,13 +1865,14 @@ footer .init li a img{
         }
     }
     #slides{
-        height:250px;
+      height: 35rem !important;
         width: 100%;
         display: flex;
         justify-content: center;
         align-items: center;
     }
     .slides{
+     
         width: 90%;
         display: flex;
         justify-content: space-between;
@@ -2061,7 +2071,7 @@ justify-content: space-between;
 
 
 
-@media screen and (max-width:1000px) {
+@media screen and (max-width:1020px) {
     .one ul{
         display: flex;
         flex-direction: row;
@@ -2088,7 +2098,7 @@ justify-content: space-between;
             }
         }
         #slides{
-            height:250px;
+        height: 40em !important;
             width: 100%;
             display: flex;
             justify-content: center;
@@ -2106,13 +2116,13 @@ justify-content: space-between;
             width: 100%;
             /* background-color: aqua; */
             border-radius: 10px;
-            height: 250px;
+           
             display: flex;
             align-items: center;
             justify-content: center;
         }
         .slide-show .slide{
-            height: 250px;
+           
             width: 100%;
             display: flex;
             align-items: center;
@@ -2121,7 +2131,7 @@ justify-content: space-between;
         }
         .slide-show .slide img{
             border-radius: 10px;
-            height: 250px;
+        
             width: 100%;
             display: flex;
             justify-content: center;

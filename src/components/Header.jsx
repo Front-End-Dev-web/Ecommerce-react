@@ -28,7 +28,7 @@ export default function Header(){
         <span className="navbar-toggler-icon" ></span>
       </button>
       <div className="collapse navbar-collapse" id="navbarSupportedContent">
-        <ul className="navbar-nav me-auto mb-2 mb-lg-0">
+        <ul className="navbar-nav me-auto mb-2 mb-lg-0  order-lg-1  ">
           <li className="nav-item dropdown category">
             <a
               className="nav-link dropdown-toggle"
@@ -61,7 +61,7 @@ export default function Header(){
             </ul>
           </li>
         </ul>
-        <form className="d-flex cs-form" role="search">
+        <form className="d-flex cs-form order-lg-2 " role="search">
           <input
             className="form-control me-2 input"
             type="search"
@@ -71,7 +71,7 @@ export default function Header(){
           <button className="cs-btn" type="submit">
           <FontAwesomeIcon icon={faMagnifyingGlass} style={{color: "#f85606",}} /></button>
         </form>
-        <ul className="navbar-nav me-auto mb-2 mb-lg-0 mlt">
+        <ul className="navbar-nav me-auto mb-2 mb-lg-0 mlt  order-lg-3 ">
           <li className="nav-item login">
             <i className="fa-regular fa-user" ></i>
 

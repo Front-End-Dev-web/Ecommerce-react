@@ -6,7 +6,7 @@
   width: 92%;
 }
 #slides{
-  height: 480px;
+ height: 30em;
   width: 100%;
   display: flex;
   justify-content: center;
@@ -21,7 +21,7 @@
 }
 .side-group{
   width: 20%;
-  height: 400px;
+
 }
 
 
@@ -103,7 +103,9 @@
 #banner{
   display: flex;
 flex-direction: column;
-
+align-items: center;
+justify-content: center;
+height: 25em;
 }
 
 
@@ -221,7 +223,7 @@ align-content: center;
 @media screen and (max-width:1020px) {
   
   #slides{
-      height: auto;
+
       width: 100%;
       display: flex;
       justify-content: center;
@@ -243,7 +245,7 @@ align-content: center;
   
 .side-group{
   width: 100%;
-  height: auto;
+
 padding: 20px 10px;
 }
 
@@ -259,6 +261,7 @@ padding: 20px 10px;
   border: none;
   border-radius: none;
   gap: 0;
+  padding: 10px;
 }
 
 
@@ -266,6 +269,7 @@ padding: 20px 10px;
   /* background-color: blue; */
   font-size: 13px;
   width: 140px;
+  
   display: flex;
   justify-content: space-between;
   flex-wrap: wrap;
@@ -450,7 +454,7 @@ background: transparent;
 
 @media screen and (max-width:540px) {
   #slides{
-      height: auto;
+     
       width: 100%;
       display: flex;
       justify-content: center;
@@ -458,6 +462,7 @@ background: transparent;
   }
   .slides{
       width: 100%;
+      height: auto;
       display: flex;
       justify-content: space-between;
       align-items: center;
@@ -473,7 +478,7 @@ background: transparent;
 .side-group{
   width: 100%;
   height:auto;
-  padding: 20px 0px;
+  padding: 40px 0px;
 
 }
 
@@ -489,6 +494,7 @@ background: transparent;
   border: none;
   border-radius: none;
   gap: 0;
+  padding: 20px;
 }
 
 
@@ -511,7 +517,7 @@ background: transparent;
 .side-group .list-group{
   height: auto;
   border: 1px solid rgba(128, 128, 128, 0.24);
-  padding: 10px;
+  
 }
 
 
