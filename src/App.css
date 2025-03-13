@@ -6,7 +6,7 @@ body{
 .nav-link:hover{
 color: white;
 }
-ul li a.nav-link{
+header nav ul li a.nav-link{
   color: white !important;
 }
 select.nav-link{
