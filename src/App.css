@@ -9,7 +9,7 @@ color: white;
 ul li a.nav-link{
   color: white !important;
 }
-select option{
+select{
   color: white;
 }
 select{background-color: #f85606;}
