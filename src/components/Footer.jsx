@@ -5,8 +5,7 @@ import '../App.css'
 export default function Footer(){
     return(
         <>
-    
-        <div class="container-fluid d-flex justify-content-center align-items-center" style="background: black;">
+  <div className="container">
     <footer className="row row-cols-1 row-cols-sm-2  row-cols-md-3 row-cols-lg-4 py-5 my-5 border-top">
       <div className="col foots">
         <h5>Customer Care</h5>
@@ -1311,11 +1310,5 @@ export default function Footer(){
       </div>
     </footer>
   </div>
-</>
-
-        
-        
-        
-   
-    )
+</> )
 }
