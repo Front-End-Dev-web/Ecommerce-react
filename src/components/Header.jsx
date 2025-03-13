@@ -1,5 +1,7 @@
 import "bootstrap/dist/css/bootstrap.min.css";
 import "bootstrap/dist/js/bootstrap.bundle.min";
+import "bootstrap-icons/fonts/bootstrap-icons.min.css";
+import "bootstrap-icons/fonts/bootstrap-icons.css";
 import '../index.css'
 import '../App.css'
 export default function Header(){
