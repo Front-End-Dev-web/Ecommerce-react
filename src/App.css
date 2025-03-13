@@ -9,6 +9,10 @@ color: white;
 ul li a.nav-link{
   color: white !important;
 }
+select option{
+  color: white;
+}
+select{background-color: #f85606;}
 *{
     margin: 0;
     padding: 0;
