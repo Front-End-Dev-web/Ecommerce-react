@@ -96,7 +96,7 @@ align-items: center;
 .cs-btn{
     position: absolute;
     right:20px;
-    height: 33px;
+    height:4px;
     width: 50px;
     border: none;
     display: flex;
