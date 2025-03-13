@@ -1,7 +1,7 @@
 import "bootstrap/dist/css/bootstrap.min.css";
 import "bootstrap/dist/js/bootstrap.bundle.min";
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
-import { faEnvelope } from '@fortawesome/free-solid-svg-icons'
+import { faMagnifyingGlass,faCartShopping,faGlobe } from '@fortawesome/free-solid-svg-icons'
 import '../index.css'
 import '../App.css'
 export default function Header(){
@@ -69,7 +69,7 @@ export default function Header(){
             aria-label="Search"
           />
           <button className="btn btn-outline-success cs-btn" type="submit">
-          <FontAwesomeIcon icon={faEnvelope} /> </button>
+          <FontAwesomeIcon icon={faMagnifyingGlass} style={{color: "#000000",}} /></button>
         </form>
         <ul className="navbar-nav me-auto mb-2 mb-lg-0 mlt">
           <li className="nav-item login">
@@ -85,7 +85,7 @@ export default function Header(){
             </a>
           </li>
           <li className="nav-item nvss">
-            <i className="fa-solid fa-globe" ></i>
+          <FontAwesomeIcon icon={faGlobe} style={{color: "#f5f9ff",}} />
             <select
               className="form-select nav-link"
               aria-label="Default select example"
@@ -96,7 +96,7 @@ export default function Header(){
           </li>
           <li className="nav-item">
             <a className="nav-link n4" href="#">
-              <i className="fa fa-shopping-cart js" ></i>
+            <FontAwesomeIcon icon={faCartShopping} style={{color: "#f6f7f9",}} />
             </a>
           </li>
         </ul>
