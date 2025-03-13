@@ -68,8 +68,8 @@ export default function Header(){
             placeholder="Search"
             aria-label="Search"
           />
-          <button className="btn btn-outline-success cs-btn" type="submit">
-          <FontAwesomeIcon icon={faMagnifyingGlass} style={{color: "#000000",}} /></button>
+          <button className="cs-btn" type="submit">
+          <FontAwesomeIcon icon={faMagnifyingGlass} style={{color: "#f85606",}} /></button>
         </form>
         <ul className="navbar-nav me-auto mb-2 mb-lg-0 mlt">
           <li className="nav-item login">
