@@ -1,6 +1,7 @@
 import "bootstrap/dist/css/bootstrap.min.css";
 import "bootstrap/dist/js/bootstrap.bundle.min";
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
+import { faEnvelope } from '@fortawesome/free-solid-svg-icons'
 import '../index.css'
 import '../App.css'
 export default function Header(){
@@ -68,8 +69,7 @@ export default function Header(){
             aria-label="Search"
           />
           <button className="btn btn-outline-success cs-btn" type="submit">
-          <FontAwesomeIcon icon="fa-solid fa-magnifying-glass" style={{color: "#000000",}} />
-          </button>
+          <FontAwesomeIcon icon={faEnvelope} /> </button>
         </form>
         <ul className="navbar-nav me-auto mb-2 mb-lg-0 mlt">
           <li className="nav-item login">
